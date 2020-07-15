@@ -492,10 +492,15 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
+  // CR10 Microswiss
+  #define DEFAULT_Kp 36.59
+  #define DEFAULT_Ki 3.45
+  #define DEFAULT_Kd 97.07
+
   // Ultimaker
-  #define DEFAULT_Kp 33.32
-  #define DEFAULT_Ki 2.32
-  #define DEFAULT_Kd 119.87
+  // #define DEFAULT_Kp 36.59
+  // #define DEFAULT_Ki 3.45
+  // #define DEFAULT_Kd 97.07
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -544,9 +549,9 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 170.7
-  #define DEFAULT_bedKi 32.57
-  #define DEFAULT_bedKd 596.36
+  // #define DEFAULT_bedKp 170.7
+  // #define DEFAULT_bedKi 32.57
+  // #define DEFAULT_bedKd 596.36
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
@@ -555,9 +560,9 @@
   //#define DEFAULT_bedKd 1675.16
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
-  #define DEFAULT_bedKp 170.7
-  #define DEFAULT_bedKi 32.57
-  #define DEFAULT_bedKd 596.36
+  #define DEFAULT_bedKp 175.37
+  #define DEFAULT_bedKi 30.36
+  #define DEFAULT_bedKd 675.42
 
 #endif // PIDTEMPBED
 
